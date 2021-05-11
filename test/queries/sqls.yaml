@@ -1,0 +1,10 @@
+SELECT_ALL_LIMIT_20:
+  "SELECT * FROM
+  test LIMIT 20"
+
+SELECT_ALL_BY_ID:
+  "SELECT * FROM test WHERE
+  id = ?"
+
+SELECT_ALL_BY_ID_AND_LANG:
+  "SELECT * FROM test WHERE id = ? AND lang = ?"
